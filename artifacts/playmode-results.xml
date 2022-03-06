@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="24" result="Passed" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.1160391">
+  <test-suite type="TestSuite" id="1000" name="die-gulde" fullname="die-gulde" runstate="Runnable" testcasecount="24" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.116039" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties />
+    <test-suite type="Assembly" id="1026" name="GuldePlayTests.dll" fullname="/github/workspace/src/Library/ScriptAssemblies/GuldePlayTests.dll" runstate="Runnable" testcasecount="24" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.100556" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="3491" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+      </properties>
+      <test-suite type="TestSuite" id="1027" name="GuldePlayTests" fullname="GuldePlayTests" runstate="Runnable" testcasecount="24" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.099615" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1028" name="Inventory" fullname="GuldePlayTests.Inventory" runstate="Runnable" testcasecount="24" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.099237" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="InventoryComponentTests" fullname="GuldePlayTests.Inventory.InventoryComponentTests" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" testcasecount="24" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.097282" total="24" passed="24" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1012" name="ShouldAdd" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldAdd" methodname="ShouldAdd" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="327298716" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.037883" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1013" name="ShouldAddMultiple" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldAddMultiple" methodname="ShouldAddMultiple" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="2031665230" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000781" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1022" name="ShouldAddResources" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldAddResources" methodname="ShouldAddResources" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="340803996" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.003765" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1025" name="ShouldGiveCanAddProduct" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldGiveCanAddProduct" methodname="ShouldGiveCanAddProduct" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="414986903" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.001470" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1024" name="ShouldGiveHasResources" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldGiveHasResources" methodname="ShouldGiveHasResources" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1582187796" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.001388" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1020" name="ShouldGiveMaxDecrease" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldGiveMaxDecrease" methodname="ShouldGiveMaxDecrease" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="914031309" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000581" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1016" name="ShouldGiveMaxIncrease" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldGiveMaxIncrease" methodname="ShouldGiveMaxIncrease" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="146928444" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000535" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1002" name="ShouldInitialize" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldInitialize" methodname="ShouldInitialize" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1407907208" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000507" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1015" name="ShouldNotAddWhenExceedingMaxIncrease" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldNotAddWhenExceedingMaxIncrease" methodname="ShouldNotAddWhenExceedingMaxIncrease" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1736135537" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000591" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1014" name="ShouldNotAddWhenFull" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldNotAddWhenFull" methodname="ShouldNotAddWhenFull" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1503344078" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.007668" asserts="0">
+              <properties />
+              <output><![CDATA[New Game Object (GuldeLib.Inventories.InventoryComponent) - Cannot add 1  (GuldeLib.TypeObjects.Item): Cannot register item
+]]></output>
+            </test-case>
+            <test-case id="1005" name="ShouldNotRegisterTwice" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldNotRegisterTwice" methodname="ShouldNotRegisterTwice" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="677975246" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000553" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1009" name="ShouldNotRegisterWhenFull" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldNotRegisterWhenFull" methodname="ShouldNotRegisterWhenFull" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1361312463" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000613" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1008" name="ShouldNotRegisterWhenFullAndCanAutoUnregister" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldNotRegisterWhenFullAndCanAutoUnregister" methodname="ShouldNotRegisterWhenFullAndCanAutoUnregister" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1604331083" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000596" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1019" name="ShouldNotRemoveWhenExceedingMaxDecrease" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldNotRemoveWhenExceedingMaxDecrease" methodname="ShouldNotRemoveWhenExceedingMaxDecrease" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="957054005" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.001039" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1018" name="ShouldNotRemoveWhenNotRegistered" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldNotRemoveWhenNotRegistered" methodname="ShouldNotRemoveWhenNotRegistered" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="911041242" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000504" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1011" name="ShouldNotUnregisterWhenNotRegistered" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldNotUnregisterWhenNotRegistered" methodname="ShouldNotUnregisterWhenNotRegistered" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1768653872" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000666" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1004" name="ShouldRegister" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldRegister" methodname="ShouldRegister" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="806695028" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000680" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1007" name="ShouldRegisterWhenEmptySlotAndCanAutoUnregister" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldRegisterWhenEmptySlotAndCanAutoUnregister" methodname="ShouldRegisterWhenEmptySlotAndCanAutoUnregister" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="2137913837" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.001035" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1006" name="ShouldRegisterWhenNotFull" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldRegisterWhenNotFull" methodname="ShouldRegisterWhenNotFull" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1789992085" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000699" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1017" name="ShouldRemove" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldRemove" methodname="ShouldRemove" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1828439629" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.001669" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1021" name="ShouldRemoveAndAutoUnregisterWhenEnabled" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldRemoveAndAutoUnregisterWhenEnabled" methodname="ShouldRemoveAndAutoUnregisterWhenEnabled" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="175030557" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000660" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1023" name="ShouldRemoveResources" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldRemoveResources" methodname="ShouldRemoveResources" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="2057040020" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.001090" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1003" name="ShouldStartEmpty" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldStartEmpty" methodname="ShouldStartEmpty" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="1741892513" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000523" asserts="0">
+              <properties />
+            </test-case>
+            <test-case id="1010" name="ShouldUnregister" fullname="GuldePlayTests.Inventory.InventoryComponentTests.ShouldUnregister" methodname="ShouldUnregister" classname="GuldePlayTests.Inventory.InventoryComponentTests" runstate="Runnable" seed="320002095" result="Passed" start-time="2022-03-06 18:26:14Z" end-time="2022-03-06 18:26:14Z" duration="0.000581" asserts="0">
+              <properties />
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

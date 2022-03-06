@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageReport scope="Summary">
+  <Summary>
+    <Generatedon>03/06/2022 - 18:26:17</Generatedon>
+    <Parser>OpenCoverParser</Parser>
+    <Assemblies>2</Assemblies>
+    <Classes>186</Classes>
+    <Files>185</Files>
+    <Coveredlines>174</Coveredlines>
+    <Uncoveredlines>3556</Uncoveredlines>
+    <Coverablelines>3730</Coverablelines>
+    <Totallines>9905</Totallines>
+    <Linecoverage>4.6</Linecoverage>
+    <Coveredbranches>0</Coveredbranches>
+    <Totalbranches>0</Totalbranches>
+  </Summary>
+  <Coverage>
+    <Assembly name="GuldeClient" classes="3" coverage="0" coveredlines="0" coverablelines="134" totallines="246" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="GuldeClient.EntityHandlerComponent" coverage="0" coveredlines="0" coverablelines="6" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeClient.GameComponent" coverage="0" coveredlines="0" coverablelines="91" totallines="157" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeClient.MapHandlerComponent" coverage="0" coveredlines="0" coverablelines="37" totallines="69" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+    <Assembly name="GuldeLib" classes="183" coverage="4.8" coveredlines="174" coverablelines="3596" totallines="9708" branchcoverage="" coveredbranches="0" totalbranches="0">
+      <Class name="GuldeLib.Builders.ActionBuilder" coverage="0" coveredlines="0" coverablelines="8" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.Builder[TObj]" coverage="100" coveredlines="7" coverablelines="7" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.CartBuilder" coverage="0" coveredlines="0" coverablelines="12" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.CityBuilder" coverage="0" coveredlines="0" coverablelines="8" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.CompanyBuilder" coverage="0" coveredlines="0" coverablelines="32" totallines="62" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.EmployeeBuilder" coverage="0" coveredlines="0" coverablelines="8" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.EntityBuilder" coverage="0" coveredlines="0" coverablelines="4" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.ExchangeBuilder" coverage="0" coveredlines="0" coverablelines="20" totallines="41" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.GameBuilder" coverage="0" coveredlines="0" coverablelines="4" totallines="13" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.InventoryBuilder" coverage="0" coveredlines="0" coverablelines="16" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.ItemBuilder" coverage="0" coveredlines="0" coverablelines="20" totallines="42" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.LocationBuilder" coverage="0" coveredlines="0" coverablelines="12" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.MapBuilder" coverage="0" coveredlines="0" coverablelines="32" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.MarketBuilder" coverage="0" coveredlines="0" coverablelines="8" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.NamingBuilder" coverage="0" coveredlines="0" coverablelines="6" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.PathfinderBuilder" coverage="0" coveredlines="0" coverablelines="8" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.PersonBuilder" coverage="0" coveredlines="0" coverablelines="4" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.PlayerBuilder" coverage="0" coveredlines="0" coverablelines="8" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.ProductionBuilder" coverage="0" coveredlines="0" coverablelines="12" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.ProductionRegistryBuilder" coverage="0" coveredlines="0" coverablelines="4" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.RecipeBuilder" coverage="36" coveredlines="9" coverablelines="25" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.TimeBuilder" coverage="0" coveredlines="0" coverablelines="44" totallines="74" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.TravelBuilder" coverage="0" coveredlines="0" coverablelines="4" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.WealthBuilder" coverage="0" coveredlines="0" coverablelines="12" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Builders.WorkerHomeBuilder" coverage="0" coveredlines="0" coverablelines="4" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Cities.CityComponent" coverage="0" coveredlines="0" coverablelines="14" totallines="89" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Companies.Carts.CartAgentComponent" coverage="0" coveredlines="0" coverablelines="305" totallines="517" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Companies.Carts.CartComponent" coverage="0" coveredlines="0" coverablelines="22" totallines="80" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Companies.CompanyComponent" coverage="0" coveredlines="0" coverablelines="117" totallines="452" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Companies.Employees.EmployeeComponent" coverage="0" coveredlines="0" coverablelines="73" totallines="254" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Companies.MasterComponent" coverage="0" coveredlines="0" coverablelines="3" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.CreateObjectWindow" coverage="0" coveredlines="0" coverablelines="16" totallines="52" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Economy.ExchangeComponent" coverage="0" coveredlines="0" coverablelines="131" totallines="437" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Economy.MarketComponent" coverage="0" coveredlines="0" coverablelines="20" totallines="73" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Economy.WealthComponent" coverage="0" coveredlines="0" coverablelines="96" totallines="313" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Entities.EntityComponent" coverage="0" coveredlines="0" coverablelines="36" totallines="92" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Entities.EntityRegistryComponent" coverage="0" coveredlines="0" coverablelines="19" totallines="59" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Entities.TravelComponent" coverage="0" coveredlines="0" coverablelines="34" totallines="85" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Extensions.ComponentExtensions" coverage="0" coveredlines="0" coverablelines="1" totallines="13" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Extensions.GameObjectExtensions" coverage="100" coveredlines="5" coverablelines="5" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Extensions.Vector2Extensions" coverage="0" coveredlines="0" coverablelines="1" totallines="9" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Extensions.Vector2IntExtensions" coverage="0" coveredlines="0" coverablelines="19" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.ActionPointFactory" coverage="0" coveredlines="0" coverablelines="9" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.AssignmentFactory" coverage="0" coveredlines="0" coverablelines="4" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.BuildingFactory" coverage="0" coveredlines="0" coverablelines="5" totallines="17" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.CartFactory" coverage="0" coveredlines="0" coverablelines="12" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.CitizenFactory" coverage="0" coveredlines="0" coverablelines="14" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.CityFactory" coverage="0" coveredlines="0" coverablelines="16" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.CompanyFactory" coverage="0" coveredlines="0" coverablelines="38" totallines="67" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.EmployeeFactory" coverage="0" coveredlines="0" coverablelines="16" totallines="33" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.EntityFactory" coverage="0" coveredlines="0" coverablelines="13" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.EntityRegistryFactory" coverage="0" coveredlines="0" coverablelines="4" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.ExchangeFactory" coverage="0" coveredlines="0" coverablelines="18" totallines="34" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.Factory[TObj,TCom]" coverage="93.3" coveredlines="14" coverablelines="15" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.Factory[TObj]" coverage="0" coveredlines="0" coverablelines="11" totallines="49" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.FavorFactory" coverage="0" coveredlines="0" coverablelines="6" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.GameFactory" coverage="0" coveredlines="0" coverablelines="30" totallines="60" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.InventoryFactory" coverage="100" coveredlines="8" coverablelines="8" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.LocationFactory" coverage="0" coveredlines="0" coverablelines="19" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.MapFactory" coverage="0" coveredlines="0" coverablelines="46" totallines="79" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.MarketFactory" coverage="0" coveredlines="0" coverablelines="12" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.MasterFactory" coverage="0" coveredlines="0" coverablelines="8" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.NamingFactory" coverage="0" coveredlines="0" coverablelines="6" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.NavFactory" coverage="0" coveredlines="0" coverablelines="7" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.PathfinderFactory" coverage="0" coveredlines="0" coverablelines="11" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.PersonFactory" coverage="0" coveredlines="0" coverablelines="11" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.ProductionAgentFactory" coverage="0" coveredlines="0" coverablelines="9" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.ProductionFactory" coverage="0" coveredlines="0" coverablelines="38" totallines="73" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.ProductionRegistryFactory" coverage="0" coveredlines="0" coverablelines="10" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.TalentFactory" coverage="0" coveredlines="0" coverablelines="10" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.TimeFactory" coverage="0" coveredlines="0" coverablelines="18" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.TravelFactory" coverage="0" coveredlines="0" coverablelines="9" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.WealthFactory" coverage="0" coveredlines="0" coverablelines="19" totallines="37" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Factories.WorkerHomeFactory" coverage="0" coveredlines="0" coverablelines="19" totallines="41" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.Generatable[TObj]" coverage="0" coveredlines="0" coverablelines="24" totallines="120" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableActionPoint" coverage="0" coveredlines="0" coverablelines="5" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableAssignment" coverage="0" coveredlines="0" coverablelines="5" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableBuilding" coverage="0" coveredlines="0" coverablelines="3" totallines="13" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableCart" coverage="0" coveredlines="0" coverablelines="6" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableCitizen" coverage="0" coveredlines="0" coverablelines="9" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableCity" coverage="0" coveredlines="0" coverablelines="14" totallines="36" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableCompany" coverage="0" coveredlines="0" coverablelines="19" totallines="39" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableDeviationFloat" coverage="0" coveredlines="0" coverablelines="6" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableEmployee" coverage="0" coveredlines="0" coverablelines="7" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableEntity" coverage="0" coveredlines="0" coverablelines="6" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableEntityRegistry" coverage="0" coveredlines="0" coverablelines="5" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableExchange" coverage="0" coveredlines="0" coverablelines="8" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableFavor" coverage="0" coveredlines="0" coverablelines="3" totallines="13" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableFemaleHumanFirstName" coverage="0" coveredlines="0" coverablelines="6" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableFloat" coverage="0" coveredlines="0" coverablelines="4" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableGame" coverage="0" coveredlines="0" coverablelines="10" totallines="26" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableHumanLastName" coverage="0" coveredlines="0" coverablelines="6" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableHumanName" coverage="0" coveredlines="0" coverablelines="2" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableHumanNaming" coverage="0" coveredlines="0" coverablelines="8" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableInnName" coverage="0" coveredlines="0" coverablelines="6" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableInt" coverage="0" coveredlines="0" coverablelines="4" totallines="14" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableInventory" coverage="0" coveredlines="0" coverablelines="5" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableLocation" coverage="0" coveredlines="0" coverablelines="7" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableLocationName" coverage="0" coveredlines="0" coverablelines="2" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableLocationNaming" coverage="0" coveredlines="0" coverablelines="7" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableMaleHumanFirstName" coverage="0" coveredlines="0" coverablelines="6" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableMap" coverage="0" coveredlines="0" coverablelines="21" totallines="41" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableMapLayout" coverage="0" coveredlines="0" coverablelines="54" totallines="93" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableMarket" coverage="0" coveredlines="0" coverablelines="15" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableMaster" coverage="0" coveredlines="0" coverablelines="6" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableName" coverage="0" coveredlines="0" coverablelines="3" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableNaming" coverage="0" coveredlines="0" coverablelines="7" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableNav" coverage="0" coveredlines="0" coverablelines="6" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratablePathfinder" coverage="0" coveredlines="0" coverablelines="7" totallines="22" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratablePerson" coverage="0" coveredlines="0" coverablelines="6" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableProduction" coverage="0" coveredlines="0" coverablelines="8" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableProductionAgent" coverage="0" coveredlines="0" coverablelines="3" totallines="13" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableProductionRegistry" coverage="0" coveredlines="0" coverablelines="5" totallines="19" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableProfession" coverage="0" coveredlines="0" coverablelines="6" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableRangedFloat" coverage="0" coveredlines="0" coverablelines="6" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableRangedInt" coverage="0" coveredlines="0" coverablelines="6" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableTalent" coverage="0" coveredlines="0" coverablelines="10" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableTime" coverage="0" coveredlines="0" coverablelines="11" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableTravel" coverage="0" coveredlines="0" coverablelines="6" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableTypeObject[TObj]" coverage="0" coveredlines="0" coverablelines="10" totallines="32" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableVector2Int" coverage="0" coveredlines="0" coverablelines="5" totallines="15" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableWealth" coverage="0" coveredlines="0" coverablelines="11" totallines="27" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Generators.GeneratableWorkerHome" coverage="0" coveredlines="0" coverablelines="6" totallines="21" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Inventories.InventoryComponent" coverage="100" coveredlines="124" coverablelines="124" totallines="255" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Locator" coverage="0" coveredlines="0" coverablelines="4" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Maps.Buildings.BuildingComponent" coverage="0" coveredlines="0" coverablelines="4" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Maps.LocationComponent" coverage="0" coveredlines="0" coverablelines="46" totallines="114" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Maps.MapComponent" coverage="0" coveredlines="0" coverablelines="42" totallines="105" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Maps.MapLayout" coverage="0" coveredlines="0" coverablelines="26" totallines="82" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Names.NameTable" coverage="0" coveredlines="0" coverablelines="4" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Names.NamingComponent" coverage="0" coveredlines="0" coverablelines="4" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.ObjectSavedEventArgs" coverage="0" coveredlines="0" coverablelines="2" totallines="12" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Pathfinding.NavComponent" coverage="0" coveredlines="0" coverablelines="34" totallines="70" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Pathfinding.Path" coverage="0" coveredlines="0" coverablelines="117" totallines="218" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Pathfinding.PathfinderComponent" coverage="0" coveredlines="0" coverablelines="83" totallines="178" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Players.ActionPointComponent" coverage="0" coveredlines="0" coverablelines="57" totallines="143" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Players.CitizenComponent" coverage="0" coveredlines="0" coverablelines="5" totallines="31" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Players.Professions.ProfessionComponent" coverage="0" coveredlines="0" coverablelines="3" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Producing.AssignmentComponent" coverage="0" coveredlines="0" coverablelines="74" totallines="161" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Producing.ProductionAgentComponent" coverage="0" coveredlines="0" coverablelines="205" totallines="370" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Producing.ProductionComponent" coverage="0" coveredlines="0" coverablelines="120" totallines="220" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Producing.ProductionRegistryComponent" coverage="0" coveredlines="0" coverablelines="89" totallines="181" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Society.FavorComponent" coverage="0" coveredlines="0" coverablelines="75" totallines="193" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Society.PersonComponent" coverage="0" coveredlines="0" coverablelines="14" totallines="43" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Society.TalentComponent" coverage="0" coveredlines="0" coverablelines="58" totallines="151" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.Timing.TimeComponent" coverage="0" coveredlines="0" coverablelines="140" totallines="316" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.ActionPoint" coverage="0" coveredlines="0" coverablelines="3" totallines="25" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Assignment" coverage="0" coveredlines="0" coverablelines="1" totallines="10" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Building" coverage="0" coveredlines="0" coverablelines="4" totallines="30" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Cart" coverage="0" coveredlines="0" coverablelines="4" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Citizen" coverage="0" coveredlines="0" coverablelines="6" totallines="38" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.City" coverage="0" coveredlines="0" coverablelines="3" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Company" coverage="0" coveredlines="0" coverablelines="9" totallines="83" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Employee" coverage="0" coveredlines="0" coverablelines="3" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Entity" coverage="0" coveredlines="0" coverablelines="1" totallines="10" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.EntityRegistry" coverage="0" coveredlines="0" coverablelines="1" totallines="10" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Exchange" coverage="0" coveredlines="0" coverablelines="5" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Favor" coverage="0" coveredlines="0" coverablelines="1" totallines="10" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Game" coverage="0" coveredlines="0" coverablelines="4" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.HumanNaming" coverage="0" coveredlines="0" coverablelines="4" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Inventory" coverage="80" coveredlines="4" coverablelines="5" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Item" coverage="0" coveredlines="0" coverablelines="6" totallines="51" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Location" coverage="0" coveredlines="0" coverablelines="4" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.LocationNaming" coverage="0" coveredlines="0" coverablelines="4" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Map" coverage="0" coveredlines="0" coverablelines="11" totallines="65" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Market" coverage="0" coveredlines="0" coverablelines="3" totallines="24" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Master" coverage="0" coveredlines="0" coverablelines="2" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Naming" coverage="0" coveredlines="0" coverablelines="3" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Nav" coverage="0" coveredlines="0" coverablelines="1" totallines="10" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Pathfinder" coverage="0" coveredlines="0" coverablelines="3" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Person" coverage="0" coveredlines="0" coverablelines="1" totallines="16" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Production" coverage="0" coveredlines="0" coverablelines="4" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.ProductionAgent" coverage="0" coveredlines="0" coverablelines="2" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.ProductionRegistry" coverage="0" coveredlines="0" coverablelines="2" totallines="20" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Profession" coverage="0" coveredlines="0" coverablelines="3" totallines="23" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Recipe" coverage="11.7" coveredlines="2" coverablelines="17" totallines="62" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Talent" coverage="0" coveredlines="0" coverablelines="3" totallines="28" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Time" coverage="0" coveredlines="0" coverablelines="12" totallines="83" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Travel" coverage="0" coveredlines="0" coverablelines="2" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.TypeObject[TObj]" coverage="33.3" coveredlines="1" coverablelines="3" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.Wealth" coverage="0" coveredlines="0" coverablelines="4" totallines="29" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.TypeObjects.WorkerHome" coverage="0" coveredlines="0" coverablelines="2" totallines="18" branchcoverage="" coveredbranches="0" totalbranches="0" />
+      <Class name="GuldeLib.WorkerHomes.WorkerHomeComponent" coverage="0" coveredlines="0" coverablelines="4" totallines="35" branchcoverage="" coveredbranches="0" totalbranches="0" />
+    </Assembly>
+  </Coverage>
+</CoverageReport>

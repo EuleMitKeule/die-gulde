@@ -1,0 +1,1205 @@
+[Licensing::Module] Channel doesn't exist: "LicenseClient-root"
+[Licensing::Module] Successfully launched the LicensingClient (PId: 3494)
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-root" (connect: 0.89s, validation: 0.08s, handshake: 0.00s)
+[Licensing::Module] Connected to LicensingClient (PId: 3494, launch time: 0.00, total connection time: 0.97s)
+Entitlement-based licensing initiated
+[Licensing::Module] Error: Access token is unavailable
+[LicensingClient] Licenses updated successfully
+
+LICENSE SYSTEM [202236 18:25:55] Next license update check is after 2022-02-23T22:43:27
+
+
+LICENSE SYSTEM [202236 18:25:55] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+[Licensing::Module] Serial number assigned to: "SC-QSMG-V5SB-5GRM-N77Z-XXXX"
+Pro License: YES
+Desktop is 640 x 480 @ 60 Hz
+[Package Manager] Server::Start -- Port 41145 was selected
+
+ COMMAND LINE ARGUMENTS:
+/opt/unity/Editor/Unity
+-batchmode
+-batchmode
+-logFile
+/github/workspace/artifacts/playmode.log
+-projectPath
+/github/workspace/src
+-runTests
+-testPlatform
+playmode
+-testResults
+/github/workspace/artifacts/playmode-results.xml
+-debugCodeOptimization
+-enableCodeCoverage
+-coverageOptions
+generateBadgeReport;assemblyFilters:+GuldeLib,+GuldeClient;pathFilters:-*/GuldeLib/Builders/LoadAssetAttribute.cs,-*/GuldeClient/Input/Controls.cs
+-coverageResultsPath
+coverage
+Successfully changed project path to: /github/workspace/src
+/github/workspace/src
+Using Asset Import Pipeline V2.
+[Package Manager] Restoring resolved packages state from cache
+[Package Manager] 
+Registered 61 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@6.0.5 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.animation@6.0.5)
+    com.unity.2d.pixel-perfect@5.0.1 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.pixel-perfect@5.0.1)
+    com.unity.2d.psdimporter@5.0.4 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.psdimporter@5.0.4)
+    com.unity.2d.spriteshape@6.0.1 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.spriteshape@6.0.1)
+    com.unity.2d.tilemap.extras@2.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.tilemap.extras@2.0.0)
+    com.unity.addressables@1.18.15 (location: /github/workspace/src/Library/PackageCache/com.unity.addressables@1.18.15)
+    com.unity.collab-proxy@1.7.1 (location: /github/workspace/src/Library/PackageCache/com.unity.collab-proxy@1.7.1)
+    com.unity.ide.rider@3.0.7 (location: /github/workspace/src/Library/PackageCache/com.unity.ide.rider@3.0.7)
+    com.unity.ide.visualstudio@2.0.11 (location: /github/workspace/src/Library/PackageCache/com.unity.ide.visualstudio@2.0.11)
+    com.unity.ide.vscode@1.2.3 (location: /github/workspace/src/Library/PackageCache/com.unity.ide.vscode@1.2.3)
+    com.unity.inputsystem@1.0.2 (location: /github/workspace/src/Library/PackageCache/com.unity.inputsystem@1.0.2)
+    com.unity.test-framework@1.1.29 (location: /github/workspace/src/Library/PackageCache/com.unity.test-framework@1.1.29)
+    com.unity.testtools.codecoverage@1.0.1 (location: /github/workspace/src/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1)
+    com.unity.textmeshpro@3.0.6 (location: /github/workspace/src/Library/PackageCache/com.unity.textmeshpro@3.0.6)
+    com.unity.timeline@1.5.6 (location: /github/workspace/src/Library/PackageCache/com.unity.timeline@1.5.6)
+    com.unity.settings-manager@1.0.3 (location: /github/workspace/src/Library/PackageCache/com.unity.settings-manager@1.0.3)
+    com.unity.ext.nunit@1.0.6 (location: /github/workspace/src/Library/PackageCache/com.unity.ext.nunit@1.0.6)
+    com.unity.nuget.newtonsoft-json@2.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0)
+    com.unity.scriptablebuildpipeline@1.19.1 (location: /github/workspace/src/Library/PackageCache/com.unity.scriptablebuildpipeline@1.19.1)
+    com.unity.mathematics@1.2.1 (location: /github/workspace/src/Library/PackageCache/com.unity.mathematics@1.2.1)
+    com.unity.2d.common@5.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.common@5.0.0)
+    com.unity.2d.path@5.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.path@5.0.0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.sprite@1.0.0)
+    com.unity.2d.tilemap@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.2d.tilemap@1.0.0)
+    com.unity.ugui@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.subsystems@1.0.0)
+    com.unity.modules.uielementsnative@1.0.0 (location: /github/workspace/src/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0)
+  Git packages:
+    com.eule.mono-extensions@https://github.com/EuleMitKeule/mono-extensions.git (location: /github/workspace/src/Library/PackageCache/com.eule.mono-extensions@cf0974eea7)
+    com.eule.mono-logger@https://github.com/EuleMitKeule/mono-logger.git (location: /github/workspace/src/Library/PackageCache/com.eule.mono-logger@e50f2bc974)
+    com.eule.mono-routine@https://github.com/EuleMitKeule/mono-routine.git (location: /github/workspace/src/Library/PackageCache/com.eule.mono-routine@72146b586f)
+
+Unable to load player prefs
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.04s seconds
+Refreshing native plugins compatible for Editor in 83.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.17f1 (03b40fe07a36)
+[Subsystems] Discovering subsystems at path /opt/unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /github/workspace/src/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_profile GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_OML_swap_method GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read 
+Renderer: llvmpipe (LLVM 10.0.0, 256 bits)
+Vendor:   VMware, Inc.
+Version:  3.3 (Core Profile) Mesa 20.0.8
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enh
+anced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robustness GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shade
+r_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_lod GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_textu
+re_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_r
+gtc GL_EXT_texture_compression_s3tc GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_MESA_ycbcr_texture GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 3.3 graphics device ; Context level  <OpenGL 3.3> ; Context handle 1396513296
+Initialize mono
+Mono path[0] = '/opt/unity/Editor/Data/Managed'
+Mono path[1] = '/opt/unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/opt/unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56491
+Code Coverage is enabled. Note that Code Coverage can affect the performance.
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /opt/unity/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.001829 seconds.
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 81.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.211 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2247ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (222ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.024355 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+Registering precompiled user dll's ...
+Registered in 0.007051 seconds.
+Starting: /opt/unity/Editor/Data/bee_backend --dagfile="Library/Bee/2400b0aEDbg.dag" --profile="Library/Bee/profiler.json" --continue-on-failure --stdin-canary ScriptAssemblies
+WorkingDir: /github/workspace/src
+ExitCode: 0 Duration: 0s649ms
+*** Tundra build success (0.03 seconds), 0 items updated, 459 evaluated
+AssetDatabase: script compilation time: 1.198878s
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 77.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.463 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4673ms)
+		BeginReloadAssembly (234ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (4344ms)
+			LoadAssemblies (123ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1058ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (2547ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (2024ms)
+				ProcessInitializeOnLoadMethodAttributes (273ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (8ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (61ms)
+Platform modules already initialized, skipping
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 7638.530ms
+	InvokeBeforeRefreshCallbacks: 0.277ms
+	ApplyChangesToAssetFolders: 0.085ms
+	Scan: 217.589ms
+	OnSourceAssetsModified: 0.001ms
+	InitializeImportedAssetsSnapshot: 0.210ms
+	GetAllGuidsForCategorization: 0.465ms
+	CategorizeAssets: 78.899ms
+	ImportAndPostprocessOutOfDateAssets: 7307.769ms (6107.528ms without children)
+		CompileScripts: 1198.977ms
+		PostProcessAllAssets: 0.003ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.607ms
+		InitializingProgressBar: 0.003ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.531ms
+		RestoreLoadedAssetsState: 0.120ms
+	ReloadSourceAssets: 0.816ms
+	UnloadImportedAssets: 0.011ms
+	Hotreload: 1.828ms
+	FixTempGuids: 0.006ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.000ms
+	UnloadStreamsBegin: 0.373ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 0.020ms
+	GetLoadedSourceAssetsSnapshot: 0.156ms
+	PersistCurrentRevisions: 1.149ms
+	UnloadStreamsEnd: 21.760ms
+	GenerateScriptTypeHashes: 0.321ms
+	Untracked: 7.116ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Refresh completed in 0.220886 seconds.
+RefreshInfo: RefreshV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 220.866ms
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 2.091ms
+Refresh completed in 0.202503 seconds.
+RefreshInfo: RefreshV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 202.480ms
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+UpdateMenuTitleForLanguage: 10
+Unloading 114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 96.4 MB.
+
+Unloading 153 unused Assets to reduce memory usage. Loaded Objects now: 3749.
+Total: 68.571000 ms (FindLiveObjects: 0.337100 ms CreateObjectMapping: 0.138300 ms MarkObjects: 66.276800 ms  DeleteObjects: 1.816800 ms)
+
+ProgressiveSceneManager::Cancel()
+Disable old input system
+[Project] Loading completed in 13.646 seconds
+	Project init time: 				0.854 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.000 seconds
+		Asset Database init time: 		0.000 seconds
+		Global illumination init time: 	0.000 seconds
+		Assemblies load time: 			0.000 seconds
+		Unity extensions init time: 	0.003 seconds
+		Asset Database refresh time: 	0.000 seconds
+	Scene opening time: 			0.238 seconds
+Running tests for playmode
+
+Executing tests with settings: test mode = PlayMode
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.TestRunner.CommandLineTest.Executer:InitializeAndExecuteRun (string[]) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/CommandLineTest/Executer.cs:45)
+UnityEditor.TestTools.TestRunner.CommandLineTest.TestStarter:UpdateWatch () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/CommandLineTest/TestStarter.cs:50)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions () (at /home/bokken/buildslave/unity/build/Editor/Mono/EditorApplication.cs:327)
+
+(Filename: Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/CommandLineTest/Executer.cs Line: 45)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-die-gulde
+[UnityConnectServicesConfig] config is NOT valid, switching to default
+Created GICache directory at /tmp/GiCache. Took: 0.002s, timestamps: [13.663 - 13.665]
+gi::BakeBackendSwitch: switching bake backend from 3 to 1.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.7 MB.
+System memory in use after: 102.0 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3768.
+Total: 68.211500 ms (FindLiveObjects: 0.265500 ms CreateObjectMapping: 0.128800 ms MarkObjects: 67.781200 ms  DeleteObjects: 0.033800 ms)
+
+Start importing Assets/InitTestScene637821879686562860.unity using Guid(f9967785dfb896c87b70b317e845f644) Importer(-1,00000000000000000000000000000000)  -> (artifact id: 'c2c1709879f7035b1d296cfcf709fdfe') in 0.021748 seconds 
+Loading style catalogs (8)
+	StyleSheets/Extensions/base/common.uss
+	UIPackageResources/StyleSheets/Default/Variables/Public/common.uss
+	StyleSheets/Northstar/common.uss
+	StyleSheets/Extensions/fonts/inter.uss
+	StyleSheets/Extensions/base/dark.uss
+	UIPackageResources/StyleSheets/Default/Northstar/Palette/dark.uss
+	Packages/com.unity.timeline/Editor/StyleSheets/Extensions/common.uss
+	Packages/com.unity.timeline/Editor/StyleSheets/Extensions/dark.uss
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 499.588ms
+	InvokeBeforeRefreshCallbacks: 0.002ms
+	ApplyChangesToAssetFolders: 0.116ms
+	Scan: 3.624ms
+	OnSourceAssetsModified: 1.095ms
+	InitializeImportedAssetsSnapshot: 10.792ms
+	GetAllGuidsForCategorization: 0.370ms
+	CategorizeAssets: 2.838ms
+	ImportAndPostprocessOutOfDateAssets: 469.323ms (2.305ms without children)
+		ImportManagerImport: 26.299ms (4.247ms without children)
+			ImportInProcess: 22.026ms
+			UpdateCategorizedAssets: 0.027ms
+		PostProcessAllAssets: 431.240ms
+		ReloadImportedAssets: 0.001ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.958ms
+		InitializingProgressBar: 0.003ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.478ms
+		OnDemandSchedulerStart: 0.520ms
+		RestoreLoadedAssetsState: 2.227ms
+	UpdateImportedAssetsSnapshot: 5.291ms
+	ReloadSourceAssets: 0.847ms
+	UnloadImportedAssets: 0.214ms
+	Hotreload: 2.026ms
+	FixTempGuids: 0.009ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.342ms
+	UnloadStreamsBegin: 0.162ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.796ms
+	GetLoadedSourceAssetsSnapshot: 4.451ms
+	PersistCurrentRevisions: 0.372ms
+	UnloadStreamsEnd: 0.184ms
+	GenerateScriptTypeHashes: 0.072ms
+	Untracked: 1.027ms
+SpriteAtlasPacking completed in 0.028715 sec
+Reloading assemblies for play mode.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.460 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4535ms)
+		BeginReloadAssembly (259ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (142ms)
+		EndReloadAssembly (4182ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (559ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (2534ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (144ms)
+				ProcessInitializeOnLoadAttributes (2298ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (92ms)
+Platform modules already initialized, skipping
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.405 ms
+	Integration:            82.361 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.010 ms
+	Total Operation Time:   83.778 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7f56dffff700 -> priority: 1 
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-die-gulde
+New Game Object (GuldeLib.Inventories.InventoryComponent) - Cannot add 1  (GuldeLib.TypeObjects.Item): Cannot register item
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+MonoLogger.Runtime.MonoLogger:Log (object,object,UnityEngine.LogType) (at Library/PackageCache/com.eule.mono-logger@e50f2bc974/Runtime/MonoLogger.cs:111)
+GuldeLib.Inventories.InventoryComponent:Add (GuldeLib.TypeObjects.Item,int) (at Assets/_Project/GuldeLib/Inventories/InventoryComponent.cs:136)
+GuldePlayTests.Inventory.InventoryComponentTests:ShouldNotAddWhenFull () (at Assets/_Project/GuldePlayTests/Inventory/InventoryComponentTests.cs:190)
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+NUnit.Framework.Internal.Reflect:InvokeMethod (System.Reflection.MethodInfo,object,object[])
+NUnit.Framework.Internal.MethodWrapper:Invoke (object,object[])
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunNonAsyncTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:RunTestMethod (NUnit.Framework.Internal.ITestExecutionContext)
+NUnit.Framework.Internal.Commands.TestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext)
+UnityEngine.TestTools.UnityTestMethodCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Commands/UnityTestMethodCommand.cs:16)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<>c__DisplayClass2_0:<Execute>b__0 () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:25)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:CaptureException (NUnit.Framework.Internal.TestResult,System.Action) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:69)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:ExecuteAndCheckLog (UnityEngine.TestTools.Logging.LogScope,NUnit.Framework.Internal.TestResult,System.Action) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:80)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:25)
+UnityEngine.TestRunner.NUnitExtensions.Runner.UnityLogCheckDelegatingCommand/<ExecuteEnumerable>d__3:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/UnityLogCheckDelegatingCommand.cs:36)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__15<NUnit.Framework.ITestAction>:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:178)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__15<System.Reflection.MethodInfo>:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:178)
+UnityEngine.TestTools.ImmediateEnumerableCommand:Execute (NUnit.Framework.Internal.ITestExecutionContext) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Commands/ImmediateEnumerableCommand.cs:19)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__15<System.Reflection.MethodInfo>:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:186)
+UnityEngine.TestTools.BeforeAfterTestCommandBase`1/<ExecuteEnumerable>d__15<UnityEngine.TestTools.IOuterUnityTestAction>:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Commands/BeforeAfterTestCommandBase.cs:178)
+UnityEngine.TestRunner.NUnitExtensions.Runner.DefaultTestWorkItem/<PerformWork>d__2:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/DefaultTestWorkItem.cs:54)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<RunChildren>d__16:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:201)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__12:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:77)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<RunChildren>d__16:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:201)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__12:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:77)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<RunChildren>d__16:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:201)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__12:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:77)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<RunChildren>d__16:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:201)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__12:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:77)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<RunChildren>d__16:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:201)
+UnityEngine.TestRunner.NUnitExtensions.Runner.CompositeWorkItem/<PerformWork>d__12:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/NUnitExtensions/Runner/CompositeWorkItem.cs:77)
+UnityEngine.TestTools.TestRunner.PlaymodeTestsController/<TestRunnerCoroutine>d__15:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/TestRunner/PlaymodeTestsController.cs:69)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Library/PackageCache/com.eule.mono-logger@e50f2bc974/Runtime/MonoLogger.cs Line: 111)
+
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+RefreshInfo: StopAssetImportingV2(NoUpdateAssetOptions) scanfilter: 
+RefreshProfiler: Total: 338.052ms
+	InvokeBeforeRefreshCallbacks: 0.001ms
+	ApplyChangesToAssetFolders: 0.089ms
+	Scan: 1.964ms
+	OnSourceAssetsModified: 1.274ms
+	UnregisterDeletedAssets: 0.000ms
+	InitializeImportedAssetsSnapshot: 8.415ms
+	GetAllGuidsForCategorization: 0.764ms
+	CategorizeAssets: 69.485ms
+	ImportAndPostprocessOutOfDateAssets: 238.933ms (2.337ms without children)
+		PostProcessAllAssets: 227.100ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.802ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.488ms
+		OnDemandSchedulerStart: 0.392ms
+		RestoreLoadedAssetsState: 2.200ms
+	UpdateImportedAssetsSnapshot: 5.615ms
+	ReloadSourceAssets: 1.100ms
+	UnloadImportedAssets: 0.284ms
+	Hotreload: 3.887ms
+	FixTempGuids: 0.012ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.324ms
+	UnloadStreamsBegin: 0.053ms
+	LoadedImportedAssetsSnapshotReleaseGCHandles: 1.775ms
+	GetLoadedSourceAssetsSnapshot: 4.925ms
+	PersistCurrentRevisions: 0.377ms
+	UnloadStreamsEnd: 0.053ms
+	GenerateScriptTypeHashes: 1.273ms
+	Untracked: 4.337ms
+[Code Coverage] Started OpenCover Session
+[Code Coverage] Processing included assembly: guldelib
+[Code Coverage] Processing included class: GuldeLib.CreateObjectWindow
+[Code Coverage] Processing included class: GuldeLib.Locator
+[Code Coverage] Processing included class: GuldeLib.NoGUIColorAttribute
+[Code Coverage] Processing included class: GuldeLib.ObjectSavedEventArgs
+[Code Coverage] Processing included class: GuldeLib.OptionalAttribute
+[Code Coverage] Processing included class: GuldeLib.WorkerHomes.WorkerHomeComponent
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.ActionPoint
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Assignment
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Building
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Cart
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Citizen
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.City
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Company
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Employee
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Entity
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.EntityRegistry
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Exchange
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Favor
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Game
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.HumanNaming
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Inventory
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Item
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Location
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.LocationNaming
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Map
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Market
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Master
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Naming
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Nav
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Pathfinder
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Person
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Production
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.ProductionAgent
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.ProductionRegistry
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Profession
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Recipe
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Talent
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Time
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Travel
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.TypeObject`1
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Wealth
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.WorkerHome
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent
+[Code Coverage] Processing included class: GuldeLib.Society.FavorComponent
+[Code Coverage] Processing included class: GuldeLib.Society.PersonComponent
+[Code Coverage] Processing included class: GuldeLib.Society.TalentComponent
+[Code Coverage] Processing included class: GuldeLib.Producing.AssignmentComponent
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionAgentComponent
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionComponent
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionRegistryComponent
+[Code Coverage] Processing included class: GuldeLib.Players.ActionPointComponent
+[Code Coverage] Processing included class: GuldeLib.Players.CitizenComponent
+[Code Coverage] Processing included class: GuldeLib.Players.Professions.ProfessionComponent
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.NavComponent
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.Path
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.PathfinderComponent
+[Code Coverage] Processing included class: GuldeLib.Names.NameTable
+[Code Coverage] Processing included class: GuldeLib.Names.NamingComponent
+[Code Coverage] Processing included class: GuldeLib.Maps.LocationComponent
+[Code Coverage] Processing included class: GuldeLib.Maps.MapComponent
+[Code Coverage] Processing included class: GuldeLib.Maps.MapLayout
+[Code Coverage] Processing included class: GuldeLib.Maps.Buildings.BuildingComponent
+[Code Coverage] Processing included class: GuldeLib.Inventories.InventoryComponent
+[Code Coverage] Processing included class: GuldeLib.Generators.Generatable`1
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableActionPoint
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableAssignment
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableAttribute
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableBuilding
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableCart
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableCitizen
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableCity
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableCompany
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableDeviationFloat
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableEmployee
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableEntity
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableEntityRegistry
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableExchange
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableFavor
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableFemaleHumanFirstName
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableFloat
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableGame
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableHumanLastName
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableHumanName
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableHumanNaming
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableInnName
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableInt
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableInventory
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableLocation
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableLocationName
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableLocationNaming
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableMaleHumanFirstName
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableMap
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableMapLayout
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableMarket
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableMaster
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableName
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableNaming
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableNav
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratablePathfinder
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratablePerson
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableProduction
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableProductionAgent
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableProductionRegistry
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableProfession
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableRangedFloat
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableRangedInt
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableTalent
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableTime
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableTravel
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableTypeObject`1
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableVector2Int
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableWealth
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableWorkerHome
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratablesAttribute
+[Code Coverage] Processing included class: GuldeLib.Generators.NamingAttribute
+[Code Coverage] Processing included class: GuldeLib.Generators.SettingAttribute
+[Code Coverage] Processing included class: GuldeLib.Factories.ActionPointFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.AssignmentFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.BuildingFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.CartFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.CitizenFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.CityFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.CompanyFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.EmployeeFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.EntityFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.EntityRegistryFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.ExchangeFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.Factory`2
+[Code Coverage] Processing included class: GuldeLib.Factories.Factory`1
+[Code Coverage] Processing included class: GuldeLib.Factories.FavorFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.GameFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.InventoryFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.LocationFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.MapFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.MarketFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.MasterFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.NamingFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.NavFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.PathfinderFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.PersonFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.ProductionAgentFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.ProductionFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.ProductionRegistryFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.TalentFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.TimeFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.TravelFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.WealthFactory
+[Code Coverage] Processing included class: GuldeLib.Factories.WorkerHomeFactory
+[Code Coverage] Processing included class: GuldeLib.Extensions.ComponentExtensions
+[Code Coverage] Processing included class: GuldeLib.Extensions.GameObjectExtensions
+[Code Coverage] Processing included class: GuldeLib.Extensions.Vector2Extensions
+[Code Coverage] Processing included class: GuldeLib.Extensions.Vector2IntExtensions
+[Code Coverage] Processing included class: GuldeLib.Entities.EntityComponent
+[Code Coverage] Processing included class: GuldeLib.Entities.EntityRegistryComponent
+[Code Coverage] Processing included class: GuldeLib.Entities.TravelComponent
+[Code Coverage] Processing included class: GuldeLib.Economy.ExchangeComponent
+[Code Coverage] Processing included class: GuldeLib.Economy.MarketComponent
+[Code Coverage] Processing included class: GuldeLib.Economy.WealthComponent
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent
+[Code Coverage] Processing included class: GuldeLib.Companies.MasterComponent
+[Code Coverage] Processing included class: GuldeLib.Companies.Employees.EmployeeComponent
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartAgentComponent
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartComponent
+[Code Coverage] Processing included class: GuldeLib.Cities.CityComponent
+[Code Coverage] Processing included class: GuldeLib.Builders.ActionBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.AssignmentBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.Builder`1
+[Code Coverage] Processing included class: GuldeLib.Builders.CartBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.CityBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.CompanyBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.EmployeeBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.EntityBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.EntityRegistryBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.ExchangeBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.GameBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.InventoryBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.ItemBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.LocationBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.MapBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.MarketBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.MasterBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.NamingBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.NavBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.PathfinderBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.PersonBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.PlayerBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.ProductionBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.ProductionRegistryBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.RecipeBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.TimeBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.TravelBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.WealthBuilder
+[Code Coverage] Processing included class: GuldeLib.Builders.WorkerHomeBuilder
+[Code Coverage] Processing included class: GuldeLib.WorkerHomes.WorkerHomeComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.TypeObjects.Item+ItemType
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+TimeEventArgs
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+WaitForEvening
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+WaitForMinuteTicked
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+WaitForMorning
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+WaitForTimeElapsed
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+WaitForTimeUnpaused
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+WaitForWorkingHourTicked
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+WaitForYearTicked
+[Code Coverage] Processing included class: GuldeLib.Timing.TimeComponent+<TimeRoutine>d__81
+[Code Coverage] Processing included class: GuldeLib.Society.FavorComponent+DelayedFavorChange
+[Code Coverage] Processing included class: GuldeLib.Society.FavorComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Society.FavorComponent+FavorChangedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Society.FavorComponent+<>c
+[Code Coverage] Processing included class: GuldeLib.Society.PersonComponent+AgeChangedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Society.PersonComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Society.TalentComponent+TalentType
+[Code Coverage] Processing included class: GuldeLib.Society.TalentComponent+DelayedTalentPointChange
+[Code Coverage] Processing included class: GuldeLib.Society.TalentComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Society.TalentComponent+TalentPointsChangedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Society.TalentComponent+<>c
+[Code Coverage] Processing included class: GuldeLib.Producing.AssignmentComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Producing.AssignmentComponent+AssignmentEventArgs
+[Code Coverage] Processing included class: GuldeLib.Producing.AssignmentComponent+<>c
+[Code Coverage] Processing included class: GuldeLib.Producing.AssignmentComponent+<>c__DisplayClass23_0
+[Code Coverage] Processing included class: GuldeLib.Producing.AssignmentComponent+<>c__DisplayClass24_0
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionAgentComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionAgentComponent+<>c
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionComponent+ProductionEventArgs
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionRegistryComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionRegistryComponent+WaitForRecipeFinished
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionRegistryComponent+<>c__DisplayClass15_0
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionRegistryComponent+<>c
+[Code Coverage] Processing included class: GuldeLib.Producing.ProductionRegistryComponent+<ProductionRoutine>d__33
+[Code Coverage] Processing included class: GuldeLib.Players.ActionPointComponent+DelayedPointsPerRoundChange
+[Code Coverage] Processing included class: GuldeLib.Players.ActionPointComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Players.ActionPointComponent+ActionPointsChangedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Players.ActionPointComponent+ActionPointsPerRoundChangedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Players.ActionPointComponent+<>c
+[Code Coverage] Processing included class: GuldeLib.Players.CitizenComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Players.Professions.ProfessionComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.NavComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.Path+NavNode
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.Path+<>c__DisplayClass5_0
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.Path+<>c__DisplayClass5_1
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.PathfinderComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.PathfinderComponent+CellEventArgs
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.PathfinderComponent+WaitForDestinationReached
+[Code Coverage] Processing included class: GuldeLib.Pathfinding.PathfinderComponent+WaitForDestinationReachedPartly
+[Code Coverage] Processing included class: GuldeLib.Names.NamingComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Maps.LocationComponent+MapEventArgs
+[Code Coverage] Processing included class: GuldeLib.Maps.MapComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Maps.MapComponent+LocationEventArgs
+[Code Coverage] Processing included class: GuldeLib.Maps.MapLayout+BuildSpace
+[Code Coverage] Processing included class: GuldeLib.Maps.Buildings.BuildingComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Inventories.InventoryComponent+Slot
+[Code Coverage] Processing included class: GuldeLib.Inventories.InventoryComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Inventories.InventoryComponent+AddedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Inventories.InventoryComponent+RegisteredEventArgs
+[Code Coverage] Processing included class: GuldeLib.Inventories.InventoryComponent+<>c
+[Code Coverage] Processing included class: GuldeLib.Inventories.InventoryComponent+<>c__DisplayClass27_0
+[Code Coverage] Processing included class: GuldeLib.Inventories.InventoryComponent+<>c__DisplayClass38_0
+[Code Coverage] Processing included class: GuldeLib.Generators.GeneratableMapLayout+<>c__DisplayClass4_0
+[Code Coverage] Processing included class: GuldeLib.Entities.EntityComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Entities.EntityComponent+PositionChangedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Entities.EntityRegistryComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Entities.EntityRegistryComponent+EntityEventArgs
+[Code Coverage] Processing included class: GuldeLib.Entities.TravelComponent+WaitForDestinationReached
+[Code Coverage] Processing included class: GuldeLib.Economy.ExchangeComponent+ItemBoughtEventArgs
+[Code Coverage] Processing included class: GuldeLib.Economy.ExchangeComponent+ItemSoldEventArgs
+[Code Coverage] Processing included class: GuldeLib.Economy.ExchangeComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Economy.MarketComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Economy.MarketComponent+<>c__DisplayClass9_0
+[Code Coverage] Processing included class: GuldeLib.Economy.WealthComponent+TurnoverType
+[Code Coverage] Processing included class: GuldeLib.Economy.WealthComponent+BilledEventArgs
+[Code Coverage] Processing included class: GuldeLib.Economy.WealthComponent+WaitForBilled
+[Code Coverage] Processing included class: GuldeLib.Economy.WealthComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent+EmployeeArrivedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent+EmployeeLeftEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent+EmployeeHiredEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent+CartArrivedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent+CartLeftEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent+CartHiredEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.CompanyComponent+WagePaidEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.MasterComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.Employees.EmployeeComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.Employees.EmployeeComponent+WaitForCompanyReached
+[Code Coverage] Processing included class: GuldeLib.Companies.Employees.EmployeeComponent+WaitForHomeReached
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartAgentComponent+CartState
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartAgentComponent+ItemOrder
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartAgentComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartAgentComponent+ItemOrderEventArgs
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartAgentComponent+<>c__DisplayClass56_0
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartComponent+CartType
+[Code Coverage] Processing included class: GuldeLib.Companies.Carts.CartComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Cities.CityComponent+InitializedEventArgs
+[Code Coverage] Processing included class: GuldeLib.Cities.CityComponent+<>c
+[Code Coverage] Processing included class: GuldeLib.Cities.CityComponent+<>c__DisplayClass14_0
+[Code Coverage] Processing included class: GuldeLib.Maps.MapLayout+BuildSpace+BuildSpaceType
+[Code Coverage] Processing included assembly: guldeclient
+[Code Coverage] Processing included class: GuldeClient.EntityHandlerComponent
+[Code Coverage] Processing included class: GuldeClient.GameComponent
+[Code Coverage] Processing included class: GuldeClient.MapHandlerComponent
+[Code Coverage] Processing included class: GuldeClient.Input.Controls
+[Code Coverage] Processing included class: GuldeClient.GameComponent+<Initialize>d__21
+[Code Coverage] Processing included class: GuldeClient.GameComponent+<InitializeGameObject>d__22
+[Code Coverage] Processing included class: GuldeClient.GameComponent+<InitializeCoreComponent>d__23
+[Code Coverage] Processing included class: GuldeClient.GameComponent+<InitializeComponent>d__24
+[Code Coverage] Processing included class: GuldeClient.GameComponent+<InitializeCartComponent>d__25
+[Code Coverage] Processing included class: GuldeClient.GameComponent+<InitializeEmployeeComponent>d__26
+[Code Coverage] Processing included class: GuldeClient.GameComponent+<InitializeEntityComponent>d__27
+[Code Coverage] Processing included class: GuldeClient.GameComponent+<InitializeMapComponent>d__28
+[Code Coverage] Processing included class: GuldeClient.Input.Controls+DefaultMapActions
+[Code Coverage] Processing included class: GuldeClient.Input.Controls+IDefaultMapActions
+[Code Coverage] Finished OpenCover Session
+[Code Coverage] Code Coverage Results were saved in coverage/src-opencov/PlayMode/TestCoverageResults_0000.xml
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.CodeCoverage.Utils.ResultsLogger:Log (UnityEditor.TestTools.CodeCoverage.Utils.ResultID,string[]) (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/Logging/ResultsLogger.cs:92)
+UnityEditor.TestTools.CodeCoverage.OpenCover.OpenCoverResultWriter:WriteCoverageSession () (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/CoverageFormats/OpenCover/OpenCoverResultWriter.cs:24)
+UnityEditor.TestTools.CodeCoverage.OpenCover.OpenCoverReporter:OutputCoverageReport (UnityEditor.TestTools.TestRunner.Api.ITestResultAdaptor,bool) (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/CoverageFormats/OpenCover/OpenCoverReporter.cs:143)
+UnityEditor.TestTools.CodeCoverage.OpenCover.OpenCoverReporter:OnRunFinished (UnityEditor.TestTools.TestRunner.Api.ITestResultAdaptor) (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/CoverageFormats/OpenCover/OpenCoverReporter.cs:114)
+UnityEditor.TestTools.CodeCoverage.CoverageReporterListener:RunFinished (UnityEditor.TestTools.TestRunner.Api.ITestResultAdaptor) (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/CoverageReporterListener.cs:65)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegator/<>c__DisplayClass8_0:<RunFinished>b__0 (UnityEditor.TestTools.TestRunner.Api.ICallbacks) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:52)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegator:TryInvokeAllCallbacks (System.Action`1<UnityEditor.TestTools.TestRunner.Api.ICallbacks>) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:122)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegator:RunFinished (NUnit.Framework.Interfaces.ITestResult) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:52)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegatorListener:RunFinished (NUnit.Framework.Interfaces.ITestResult) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegatorListener.cs:15)
+UnityEngine.Events.InvokableCall`1<NUnit.Framework.Interfaces.ITestResult>:Invoke (NUnit.Framework.Interfaces.ITestResult) (at /home/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:221)
+UnityEngine.Events.UnityEvent`1<NUnit.Framework.Interfaces.ITestResult>:Invoke (NUnit.Framework.Interfaces.ITestResult) (at /home/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_1.cs:58)
+UnityEngine.TestTools.TestRunner.PlaymodeTestsController/<TestRunnerCoroutine>d__15:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/TestRunner/PlaymodeTestsController.cs:76)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/Logging/ResultsLogger.cs Line: 92)
+
+[Code Coverage] The report file pattern 'coverage/**/RecordingCoverageResults_????.xml' is invalid. No matching files found.
+[Code Coverage] Loading report '/github/workspace/src/coverage/src-opencov/PlayMode/TestCoverageResults_0000.xml' 1/1 in memory
+[Code Coverage] Initiating parser for OpenCover
+[Code Coverage] Current Assembly: GuldeClient
+[Code Coverage] Current Assembly: GuldeLib
+[Code Coverage] Finished parsing '/github/workspace/src/coverage/src-opencov/PlayMode/TestCoverageResults_0000.xml' 1/1
+[Code Coverage] Parsing of 1 files completed
+[Code Coverage] Starting merging result 1
+[Code Coverage] Finished merging result 1
+[Code Coverage] Coverage report parsing took 0.7 seconds
+[Code Coverage] Initializing report builders for report types: xmlSummary, Badges
+[Code Coverage] Analyzing 186 classes
+[Code Coverage] Creating report 1/186 (Assembly: GuldeClient, Class: GuldeClient.EntityHandlerComponent)
+[Code Coverage] Creating report 2/186 (Assembly: GuldeClient, Class: GuldeClient.GameComponent)
+[Code Coverage] Creating report 3/186 (Assembly: GuldeClient, Class: GuldeClient.MapHandlerComponent)
+[Code Coverage] Creating report 4/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.ActionBuilder)
+[Code Coverage] Creating report 5/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.Builder[TObj])
+[Code Coverage] Creating report 6/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.CartBuilder)
+[Code Coverage] Creating report 7/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.CityBuilder)
+[Code Coverage] Creating report 8/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.CompanyBuilder)
+[Code Coverage] Creating report 9/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.EmployeeBuilder)
+[Code Coverage] Creating report 10/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.EntityBuilder)
+[Code Coverage] Creating report 11/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.ExchangeBuilder)
+[Code Coverage] Creating report 12/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.GameBuilder)
+[Code Coverage] Creating report 13/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.InventoryBuilder)
+[Code Coverage] Creating report 14/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.ItemBuilder)
+[Code Coverage] Creating report 15/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.LocationBuilder)
+[Code Coverage] Creating report 16/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.MapBuilder)
+[Code Coverage] Creating report 17/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.MarketBuilder)
+[Code Coverage] Creating report 18/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.NamingBuilder)
+[Code Coverage] Creating report 19/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.PathfinderBuilder)
+[Code Coverage] Creating report 20/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.PersonBuilder)
+[Code Coverage] Creating report 21/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.PlayerBuilder)
+[Code Coverage] Creating report 22/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.ProductionBuilder)
+[Code Coverage] Creating report 23/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.ProductionRegistryBuilder)
+[Code Coverage] Creating report 24/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.RecipeBuilder)
+[Code Coverage] Creating report 25/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.TimeBuilder)
+[Code Coverage] Creating report 26/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.TravelBuilder)
+[Code Coverage] Creating report 27/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.WealthBuilder)
+[Code Coverage] Creating report 28/186 (Assembly: GuldeLib, Class: GuldeLib.Builders.WorkerHomeBuilder)
+[Code Coverage] Creating report 29/186 (Assembly: GuldeLib, Class: GuldeLib.Cities.CityComponent)
+[Code Coverage] Creating report 30/186 (Assembly: GuldeLib, Class: GuldeLib.Companies.Carts.CartAgentComponent)
+[Code Coverage] Creating report 31/186 (Assembly: GuldeLib, Class: GuldeLib.Companies.Carts.CartComponent)
+[Code Coverage] Creating report 32/186 (Assembly: GuldeLib, Class: GuldeLib.Companies.CompanyComponent)
+[Code Coverage] Creating report 33/186 (Assembly: GuldeLib, Class: GuldeLib.Companies.Employees.EmployeeComponent)
+[Code Coverage] Creating report 34/186 (Assembly: GuldeLib, Class: GuldeLib.Companies.MasterComponent)
+[Code Coverage] Creating report 35/186 (Assembly: GuldeLib, Class: GuldeLib.CreateObjectWindow)
+[Code Coverage] Creating report 36/186 (Assembly: GuldeLib, Class: GuldeLib.Economy.ExchangeComponent)
+[Code Coverage] Creating report 37/186 (Assembly: GuldeLib, Class: GuldeLib.Economy.MarketComponent)
+[Code Coverage] Creating report 38/186 (Assembly: GuldeLib, Class: GuldeLib.Economy.WealthComponent)
+[Code Coverage] Creating report 39/186 (Assembly: GuldeLib, Class: GuldeLib.Entities.EntityComponent)
+[Code Coverage] Creating report 40/186 (Assembly: GuldeLib, Class: GuldeLib.Entities.EntityRegistryComponent)
+[Code Coverage] Creating report 41/186 (Assembly: GuldeLib, Class: GuldeLib.Entities.TravelComponent)
+[Code Coverage] Creating report 42/186 (Assembly: GuldeLib, Class: GuldeLib.Extensions.ComponentExtensions)
+[Code Coverage] Creating report 43/186 (Assembly: GuldeLib, Class: GuldeLib.Extensions.GameObjectExtensions)
+[Code Coverage] Creating report 44/186 (Assembly: GuldeLib, Class: GuldeLib.Extensions.Vector2Extensions)
+[Code Coverage] Creating report 45/186 (Assembly: GuldeLib, Class: GuldeLib.Extensions.Vector2IntExtensions)
+[Code Coverage] Creating report 46/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.ActionPointFactory)
+[Code Coverage] Creating report 47/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.AssignmentFactory)
+[Code Coverage] Creating report 48/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.BuildingFactory)
+[Code Coverage] Creating report 49/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.CartFactory)
+[Code Coverage] Creating report 50/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.CitizenFactory)
+[Code Coverage] Creating report 51/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.CityFactory)
+[Code Coverage] Creating report 52/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.CompanyFactory)
+[Code Coverage] Creating report 53/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.EmployeeFactory)
+[Code Coverage] Creating report 54/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.EntityFactory)
+[Code Coverage] Creating report 55/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.EntityRegistryFactory)
+[Code Coverage] Creating report 56/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.ExchangeFactory)
+[Code Coverage] Creating report 57/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.Factory[TObj,TCom])
+[Code Coverage] Creating report 58/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.Factory[TObj])
+[Code Coverage] Creating report 59/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.FavorFactory)
+[Code Coverage] Creating report 60/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.GameFactory)
+[Code Coverage] Creating report 61/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.InventoryFactory)
+[Code Coverage] Creating report 62/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.LocationFactory)
+[Code Coverage] Creating report 63/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.MapFactory)
+[Code Coverage] Creating report 64/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.MarketFactory)
+[Code Coverage] Creating report 65/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.MasterFactory)
+[Code Coverage] Creating report 66/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.NamingFactory)
+[Code Coverage] Creating report 67/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.NavFactory)
+[Code Coverage] Creating report 68/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.PathfinderFactory)
+[Code Coverage] Creating report 69/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.PersonFactory)
+[Code Coverage] Creating report 70/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.ProductionAgentFactory)
+[Code Coverage] Creating report 71/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.ProductionFactory)
+[Code Coverage] Creating report 72/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.ProductionRegistryFactory)
+[Code Coverage] Creating report 73/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.TalentFactory)
+[Code Coverage] Creating report 74/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.TimeFactory)
+[Code Coverage] Creating report 75/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.TravelFactory)
+[Code Coverage] Creating report 76/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.WealthFactory)
+[Code Coverage] Creating report 77/186 (Assembly: GuldeLib, Class: GuldeLib.Factories.WorkerHomeFactory)
+[Code Coverage] Creating report 78/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.Generatable[TObj])
+[Code Coverage] Creating report 79/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableActionPoint)
+[Code Coverage] Creating report 80/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableAssignment)
+[Code Coverage] Creating report 81/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableBuilding)
+[Code Coverage] Creating report 82/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableCart)
+[Code Coverage] Creating report 83/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableCitizen)
+[Code Coverage] Creating report 84/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableCity)
+[Code Coverage] Creating report 85/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableCompany)
+[Code Coverage] Creating report 86/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableDeviationFloat)
+[Code Coverage] Creating report 87/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableEmployee)
+[Code Coverage] Creating report 88/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableEntity)
+[Code Coverage] Creating report 89/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableEntityRegistry)
+[Code Coverage] Creating report 90/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableExchange)
+[Code Coverage] Creating report 91/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableFavor)
+[Code Coverage] Creating report 92/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableFemaleHumanFirstName)
+[Code Coverage] Creating report 93/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableFloat)
+[Code Coverage] Creating report 94/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableGame)
+[Code Coverage] Creating report 95/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableHumanLastName)
+[Code Coverage] Creating report 96/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableHumanName)
+[Code Coverage] Creating report 97/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableHumanNaming)
+[Code Coverage] Creating report 98/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableInnName)
+[Code Coverage] Creating report 99/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableInt)
+[Code Coverage] Creating report 100/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableInventory)
+[Code Coverage] Creating report 101/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableLocation)
+[Code Coverage] Creating report 102/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableLocationName)
+[Code Coverage] Creating report 103/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableLocationNaming)
+[Code Coverage] Creating report 104/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableMaleHumanFirstName)
+[Code Coverage] Creating report 105/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableMap)
+[Code Coverage] Creating report 106/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableMapLayout)
+[Code Coverage] Creating report 107/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableMarket)
+[Code Coverage] Creating report 108/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableMaster)
+[Code Coverage] Creating report 109/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableName)
+[Code Coverage] Creating report 110/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableNaming)
+[Code Coverage] Creating report 111/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableNav)
+[Code Coverage] Creating report 112/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratablePathfinder)
+[Code Coverage] Creating report 113/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratablePerson)
+[Code Coverage] Creating report 114/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableProduction)
+[Code Coverage] Creating report 115/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableProductionAgent)
+[Code Coverage] Creating report 116/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableProductionRegistry)
+[Code Coverage] Creating report 117/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableProfession)
+[Code Coverage] Creating report 118/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableRangedFloat)
+[Code Coverage] Creating report 119/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableRangedInt)
+[Code Coverage] Creating report 120/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableTalent)
+[Code Coverage] Creating report 121/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableTime)
+[Code Coverage] Creating report 122/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableTravel)
+[Code Coverage] Creating report 123/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableTypeObject[TObj])
+[Code Coverage] Creating report 124/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableVector2Int)
+[Code Coverage] Creating report 125/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableWealth)
+[Code Coverage] Creating report 126/186 (Assembly: GuldeLib, Class: GuldeLib.Generators.GeneratableWorkerHome)
+[Code Coverage] Creating report 127/186 (Assembly: GuldeLib, Class: GuldeLib.Inventories.InventoryComponent)
+[Code Coverage] Creating report 128/186 (Assembly: GuldeLib, Class: GuldeLib.Locator)
+[Code Coverage] Creating report 129/186 (Assembly: GuldeLib, Class: GuldeLib.Maps.Buildings.BuildingComponent)
+[Code Coverage] Creating report 130/186 (Assembly: GuldeLib, Class: GuldeLib.Maps.LocationComponent)
+[Code Coverage] Creating report 131/186 (Assembly: GuldeLib, Class: GuldeLib.Maps.MapComponent)
+[Code Coverage] Creating report 132/186 (Assembly: GuldeLib, Class: GuldeLib.Maps.MapLayout)
+[Code Coverage] Creating report 133/186 (Assembly: GuldeLib, Class: GuldeLib.Names.NameTable)
+[Code Coverage] Creating report 134/186 (Assembly: GuldeLib, Class: GuldeLib.Names.NamingComponent)
+[Code Coverage] Creating report 135/186 (Assembly: GuldeLib, Class: GuldeLib.ObjectSavedEventArgs)
+[Code Coverage] Creating report 136/186 (Assembly: GuldeLib, Class: GuldeLib.Pathfinding.NavComponent)
+[Code Coverage] Creating report 137/186 (Assembly: GuldeLib, Class: GuldeLib.Pathfinding.Path)
+[Code Coverage] Creating report 138/186 (Assembly: GuldeLib, Class: GuldeLib.Pathfinding.PathfinderComponent)
+[Code Coverage] Creating report 139/186 (Assembly: GuldeLib, Class: GuldeLib.Players.ActionPointComponent)
+[Code Coverage] Creating report 140/186 (Assembly: GuldeLib, Class: GuldeLib.Players.CitizenComponent)
+[Code Coverage] Creating report 141/186 (Assembly: GuldeLib, Class: GuldeLib.Players.Professions.ProfessionComponent)
+[Code Coverage] Creating report 142/186 (Assembly: GuldeLib, Class: GuldeLib.Producing.AssignmentComponent)
+[Code Coverage] Creating report 143/186 (Assembly: GuldeLib, Class: GuldeLib.Producing.ProductionAgentComponent)
+[Code Coverage] Creating report 144/186 (Assembly: GuldeLib, Class: GuldeLib.Producing.ProductionComponent)
+[Code Coverage] Creating report 145/186 (Assembly: GuldeLib, Class: GuldeLib.Producing.ProductionRegistryComponent)
+[Code Coverage] Creating report 146/186 (Assembly: GuldeLib, Class: GuldeLib.Society.FavorComponent)
+[Code Coverage] Creating report 147/186 (Assembly: GuldeLib, Class: GuldeLib.Society.PersonComponent)
+[Code Coverage] Creating report 148/186 (Assembly: GuldeLib, Class: GuldeLib.Society.TalentComponent)
+[Code Coverage] Creating report 149/186 (Assembly: GuldeLib, Class: GuldeLib.Timing.TimeComponent)
+[Code Coverage] Creating report 150/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.ActionPoint)
+[Code Coverage] Creating report 151/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Assignment)
+[Code Coverage] Creating report 152/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Building)
+[Code Coverage] Creating report 153/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Cart)
+[Code Coverage] Creating report 154/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Citizen)
+[Code Coverage] Creating report 155/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.City)
+[Code Coverage] Creating report 156/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Company)
+[Code Coverage] Creating report 157/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Employee)
+[Code Coverage] Creating report 158/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Entity)
+[Code Coverage] Creating report 159/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.EntityRegistry)
+[Code Coverage] Creating report 160/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Exchange)
+[Code Coverage] Creating report 161/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Favor)
+[Code Coverage] Creating report 162/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Game)
+[Code Coverage] Creating report 163/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.HumanNaming)
+[Code Coverage] Creating report 164/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Inventory)
+[Code Coverage] Creating report 165/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Item)
+[Code Coverage] Creating report 166/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Location)
+[Code Coverage] Creating report 167/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.LocationNaming)
+[Code Coverage] Creating report 168/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Map)
+[Code Coverage] Creating report 169/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Market)
+[Code Coverage] Creating report 170/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Master)
+[Code Coverage] Creating report 171/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Naming)
+[Code Coverage] Creating report 172/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Nav)
+[Code Coverage] Creating report 173/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Pathfinder)
+[Code Coverage] Creating report 174/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Person)
+[Code Coverage] Creating report 175/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Production)
+[Code Coverage] Creating report 176/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.ProductionAgent)
+[Code Coverage] Creating report 177/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.ProductionRegistry)
+[Code Coverage] Creating report 178/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Profession)
+[Code Coverage] Creating report 179/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Recipe)
+[Code Coverage] Creating report 180/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Talent)
+[Code Coverage] Creating report 181/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Time)
+[Code Coverage] Creating report 182/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Travel)
+[Code Coverage] Creating report 183/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.TypeObject[TObj])
+[Code Coverage] Creating report 184/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.Wealth)
+[Code Coverage] Creating report 185/186 (Assembly: GuldeLib, Class: GuldeLib.TypeObjects.WorkerHome)
+[Code Coverage] Creating report 186/186 (Assembly: GuldeLib, Class: GuldeLib.WorkerHomes.WorkerHomeComponent)
+[Code Coverage] Writing report file 'coverage/Report/badge_linecoverage.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_linecoverage_brightgreen.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_linecoverage_green.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_linecoverage_yellowgreen.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_linecoverage_yellow.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_linecoverage_orange.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_linecoverage_red.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_linecoverage_lightgrey.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_linecoverage_blue.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_branchcoverage.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_branchcoverage_brightgreen.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_branchcoverage_green.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_branchcoverage_yellowgreen.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_branchcoverage_yellow.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_branchcoverage_orange.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_branchcoverage_red.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_branchcoverage_lightgrey.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_shieldsio_branchcoverage_blue.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_combined.svg'
+[Code Coverage] Writing report file 'coverage/Report/badge_linecoverage.png'
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/advapi32.dll
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.so
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/advapi32
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/advapi32.dll
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.so
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/advapi32
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll.so
+Fallback handler could not load library /opt/unity/Editor/Data/Mono/lib/libadvapi32.dll
+[Code Coverage] Error during rendering summary report (Report type: 'Badges'): Font 'Arial' is not available. Therefore only SVG badges can be generated. PNG files are omitted.
+[Code Coverage] Writing report file 'coverage/Report/Summary.xml'
+[Code Coverage] Report generation took 1.2 seconds
+[Code Coverage] Code Coverage Report was generated in coverage/Report
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.TestTools.CodeCoverage.Utils.ResultsLogger:Log (UnityEditor.TestTools.CodeCoverage.Utils.ResultID,string[]) (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/Logging/ResultsLogger.cs:92)
+UnityEditor.TestTools.CodeCoverage.CoverageReportGenerator:Generate (UnityEditor.TestTools.CodeCoverage.CoverageSettings) (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/ReportGenerator/CoverageReportGenerator.cs:138)
+UnityEditor.TestTools.CodeCoverage.CoverageReporterManager:GenerateReport () (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/CoverageReporterManager.cs:88)
+UnityEditor.TestTools.CodeCoverage.CoverageReporterListener:RunFinished (UnityEditor.TestTools.TestRunner.Api.ITestResultAdaptor) (at Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/CoverageReporterListener.cs:67)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegator/<>c__DisplayClass8_0:<RunFinished>b__0 (UnityEditor.TestTools.TestRunner.Api.ICallbacks) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:52)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegator:TryInvokeAllCallbacks (System.Action`1<UnityEditor.TestTools.TestRunner.Api.ICallbacks>) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:122)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegator:RunFinished (NUnit.Framework.Interfaces.ITestResult) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegator.cs:52)
+UnityEditor.TestTools.TestRunner.Api.CallbacksDelegatorListener:RunFinished (NUnit.Framework.Interfaces.ITestResult) (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEditor.TestRunner/Api/CallbacksDelegatorListener.cs:15)
+UnityEngine.Events.InvokableCall`1<NUnit.Framework.Interfaces.ITestResult>:Invoke (NUnit.Framework.Interfaces.ITestResult) (at /home/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent.cs:221)
+UnityEngine.Events.UnityEvent`1<NUnit.Framework.Interfaces.ITestResult>:Invoke (NUnit.Framework.Interfaces.ITestResult) (at /home/bokken/buildslave/unity/build/Runtime/Export/UnityEvent/UnityEvent/UnityEvent_1.cs:58)
+UnityEngine.TestTools.TestRunner.PlaymodeTestsController/<TestRunnerCoroutine>d__15:MoveNext () (at Library/PackageCache/com.unity.test-framework@1.1.29/UnityEngine.TestRunner/TestRunner/PlaymodeTestsController.cs:76)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr) (at /home/bokken/buildslave/unity/build/Runtime/Export/Scripting/Coroutines.cs:17)
+
+(Filename: Library/PackageCache/com.unity.testtools.codecoverage@1.0.1/Editor/Logging/ResultsLogger.cs Line: 92)
+
+[Code Coverage] Editor analytics are disabled
+Saving results to: /github/workspace/artifacts/playmode-results.xml
+
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+debugger-agent: Unable to listen on 44
+[Performance] Application.InitializeProject                                 :        1 samples, Peak.  12.2 s (1.0x), Avg.  12.2 s, Total. 12.19 s (52.3%)
+[Performance] Application.PackageManager.StartServer                        :        1 samples, Peak.  1.69 ms (1.0x), Avg.  1.69 ms, Total. 1.692 ms (0.0%)
+[Performance] Application.AcquireProjectLock                                :        1 samples, Peak.   643 us (1.0x), Avg.   643 us, Total. 643.2 us (0.0%)
+[Performance] Application.InitializeEngineNoGraphics                        :        1 samples, Peak.  25.0 ms (1.0x), Avg.  25.0 ms, Total. 24.98 ms (0.1%)
+[Performance] Application.PackageManager.Initialize                         :        1 samples, Peak.   619 ms (1.0x), Avg.   619 ms, Total. 619.4 ms (2.7%)
+[Performance] CurlRequestCheck                                              :       13 samples, Peak.  79.1 us (3.6x), Avg.  21.9 us, Total. 284.7 us (0.0%)
+[Performance] VersionControl.Task.Wait                                      :        1 samples, Peak.  7.20 us (1.0x), Avg.  7.20 us, Total. 7.200 us (0.0%)
+[Performance] Application.EngineGraphics.Initialize                         :        1 samples, Peak.  47.3 ms (1.0x), Avg.  47.3 ms, Total. 47.27 ms (0.2%)
+[Performance] Application.GI.Initialize                                     :        1 samples, Peak.   597 us (1.0x), Avg.   597 us, Total. 597.3 us (0.0%)
+[Performance] Application.LoadAllDefaultResourcesFromEditor                 :        1 samples, Peak.  2.52 ms (1.0x), Avg.  2.52 ms, Total. 2.523 ms (0.0%)
+[Performance] Application.LoadMonoAssemblies                                :        1 samples, Peak.  2.28 s (1.0x), Avg.  2.28 s, Total. 2.279 s (9.8%)
+[Performance] RestoreManagedReferences                                      :        3 samples, Peak.   337 ms (2.1x), Avg.   163 ms, Total. 489.3 ms (2.1%)
+[Performance] ProcessService.EditorAfterLoadAllAssemblies                   :        3 samples, Peak.   207 ms (2.0x), Avg.   105 ms, Total. 315.1 ms (1.4%)
+[Performance] Application.ReadLicenseInfo                                   :        1 samples, Peak.  13.3 ms (1.0x), Avg.  13.3 ms, Total. 13.29 ms (0.1%)
+[Performance] Application.InitialScriptRefresh                              :        1 samples, Peak.  7.64 s (1.0x), Avg.  7.64 s, Total. 7.642 s (32.8%)
+[Performance] Compiling Scripts                                             :        1 samples, Peak.  1.20 s (1.0x), Avg.  1.20 s, Total. 1.199 s (5.1%)
+[Performance] Application.AssetDatabase.Refresh                             :        1 samples, Peak.   221 ms (1.0x), Avg.   221 ms, Total. 221.0 ms (0.9%)
+[Performance] AssetDatabase.Refresh                                         :        1 samples, Peak.   221 ms (1.0x), Avg.   221 ms, Total. 221.0 ms (0.9%)
+[Performance] Application.ImportAssetsWithMismatchingAssetImporterVersion   :        1 samples, Peak.   221 ms (1.0x), Avg.   221 ms, Total. 221.2 ms (0.9%)
+[Performance] Application.SyncCurrentColorSpace                             :        1 samples, Peak.   307 ms (1.0x), Avg.   307 ms, Total. 306.8 ms (1.3%)
+[Performance] Application.OnUsbDevicesChanged                               :        1 samples, Peak.  1.30 us (1.0x), Avg.  1.30 us, Total. 1.300 us (0.0%)
+[Performance] Application.AssetInstanceCacheUpdate                          :        1 samples, Peak.   500 ns (1.0x), Avg.   500 ns, Total. 500.0 ns (0.0%)
+[Performance] Application.UnityExtensions.Initialize                        :        1 samples, Peak.  2.82 ms (1.0x), Avg.  2.82 ms, Total. 2.815 ms (0.0%)
+[Performance] Application.InitializeManagedCompilationPipeline              :        1 samples, Peak.   150 ms (1.0x), Avg.   150 ms, Total. 150.4 ms (0.6%)
+[Performance] Application.ExecuteStartups                                   :        1 samples, Peak.  78.8 ms (1.0x), Avg.  78.8 ms, Total. 78.78 ms (0.3%)
+[Performance] Gizmo.RebuildRenderers                                        :        3 samples, Peak.  73.2 ms (2.7x), Avg.  27.2 ms, Total. 81.57 ms (0.3%)
+[Performance] Gizmo.AddGizmoRenderers                                       :      252 samples, Peak.  3.25 ms (66.2x), Avg.  49.0 us, Total. 12.36 ms (0.1%)
+[Performance] Application.InitializeMenu                                    :        1 samples, Peak.   289 ms (1.0x), Avg.   289 ms, Total. 288.9 ms (1.2%)
+[Performance] UpdateAllMenus                                                :       14 samples, Peak.   289 ms (7.5x), Avg.  38.5 ms, Total. 538.8 ms (2.3%)
+[Performance] Application.editorInitializingProject                         :        1 samples, Peak.  40.0 us (1.0x), Avg.  40.0 us, Total. 40.00 us (0.0%)
+[Performance] Application.FinishLoadingProject                              :        1 samples, Peak.   238 ms (1.0x), Avg.   238 ms, Total. 238.2 ms (1.0%)
+[Performance] GUIView.RepaintAll.PlayerLoopController                       :       11 samples, Peak.   900 ns (1.5x), Avg.   582 ns, Total. 6.400 us (0.0%)
+[Performance] Application.InvokeFinishedLoadingProject                      :        1 samples, Peak.  81.5 ms (1.0x), Avg.  81.5 ms, Total. 81.51 ms (0.3%)
+[Performance] ProcessService.OnProjectLoaded                                :        1 samples, Peak.  71.0 ms (1.0x), Avg.  71.0 ms, Total. 70.96 ms (0.3%)
+[Performance] Application.InvokeProjectWasLoaded                            :        1 samples, Peak.   452 us (1.0x), Avg.   452 us, Total. 452.2 us (0.0%)
+[Performance] Application.Message                                           :       11 samples, Peak.  21.3 us (2.7x), Avg.  7.95 us, Total. 87.50 us (0.0%)
+[Performance] Application.Tick                                              :       10 samples, Peak.  4.77 s (7.1x), Avg.   670 ms, Total. 6.702 s (28.7%)
+[Performance] CheckLicensingClient                                          :        2 samples, Peak.  3.60 us (1.0x), Avg.  3.50 us, Total. 7.000 us (0.0%)
+[Performance] Application.TickVersionControl                                :       11 samples, Peak.  3.80 us (2.3x), Avg.  1.65 us, Total. 18.10 us (0.0%)
+[Performance] MonoCompiler.Tick                                             :        5 samples, Peak.  2.21 ms (4.9x), Avg.   448 us, Total. 2.241 ms (0.0%)
+[Performance] UnityConnect.Tick                                             :        4 samples, Peak.  2.56 ms (3.9x), Avg.   649 us, Total. 2.597 ms (0.0%)
+[Performance] Collab.Tick                                                   :        4 samples, Peak.  2.90 us (1.5x), Avg.  1.90 us, Total. 7.600 us (0.0%)
+[Performance] CurlRequest.Tick                                              :        6 samples, Peak.   241 us (5.8x), Avg.  41.7 us, Total. 250.5 us (0.0%)
+[Performance] WebSocketClient.Tick                                          :        6 samples, Peak.  4.60 us (3.5x), Avg.  1.30 us, Total. 7.800 us (0.0%)
+[Performance] AssetDatabase.Tick                                            :        6 samples, Peak.   491 us (6.0x), Avg.  82.1 us, Total. 492.7 us (0.0%)
+[Performance] SceneBackgroundTask.Tick                                      :        6 samples, Peak.   600 ns (1.6x), Avg.   383 ns, Total. 2.300 us (0.0%)
+[Performance] Scheduler.Tick                                                :        9 samples, Peak.  8.42 ms (4.6x), Avg.  1.83 ms, Total. 16.51 ms (0.1%)
+[Performance] RepaintAllProfilerWindows                                     :        4 samples, Peak.  1.34 ms (2.3x), Avg.   578 us, Total. 2.313 ms (0.0%)
+[Performance] PlayerUpdates.Tick                                            :        6 samples, Peak.  28.6 us (1.2x), Avg.  23.2 us, Total. 139.0 us (0.0%)
+[Performance] Application.TickGlobalCallbacks                               :       11 samples, Peak.  13.7 ms (7.1x), Avg.  1.92 ms, Total. 21.08 ms (0.1%)
+[Performance] CoreBusinessMetrics.Tick                                      :        1 samples, Peak.   134 us (1.0x), Avg.   134 us, Total. 133.5 us (0.0%)
+[Performance] EditorAnalytics.Tick                                          :        5 samples, Peak.  11.5 us (4.0x), Avg.  2.86 us, Total. 14.30 us (0.0%)
+[Performance] GI.Tick                                                       :        4 samples, Peak.  5.13 ms (3.9x), Avg.  1.31 ms, Total. 5.239 ms (0.0%)
+[Performance] Video.Update                                                  :       11 samples, Peak.  1.50 us (2.0x), Avg.   764 ns, Total. 8.400 us (0.0%)
+[Performance] UnitySynchronization.ExecuteTasks                             :        4 samples, Peak.  11.0 us (1.8x), Avg.  6.07 us, Total. 24.30 us (0.0%)
+[Performance] Application.TickPreloadManager                                :        5 samples, Peak.  8.60 us (1.5x), Avg.  5.60 us, Total. 28.00 us (0.0%)
+[Performance] Application.TickProgress                                      :       11 samples, Peak.  14.0 ms (11.0x), Avg.  1.27 ms, Total. 14.00 ms (0.1%)
+[Performance] Application.TickSceneTracker                                  :       11 samples, Peak.   857 ms (6.1x), Avg.   140 ms, Total. 1.539 s (6.6%)
+[Performance] EditorApplication.update                                      :       11 samples, Peak.   857 ms (6.6x), Avg.   129 ms, Total. 1.419 s (6.1%)
+[Performance] ConsoleLog.Tick                                               :        4 samples, Peak.  2.47 ms (2.1x), Avg.  1.17 ms, Total. 4.670 ms (0.0%)
+[Performance] HierarchyWindow.Tick                                          :        5 samples, Peak.  10.3 ms (4.3x), Avg.  2.41 ms, Total. 12.04 ms (0.1%)
+[Performance] Inspector.Tick                                                :        5 samples, Peak.   119 ms (3.0x), Avg.  39.9 ms, Total. 199.6 ms (0.9%)
+[Performance] Tooltip.Tick                                                  :        5 samples, Peak.  2.70 us (2.0x), Avg.  1.38 us, Total. 6.900 us (0.0%)
+[Performance] Application.RequestRepaintForPanels                           :       11 samples, Peak.  1.49 ms (5.4x), Avg.   274 us, Total. 3.016 ms (0.0%)
+[Performance] Application.UpdateScene                                       :       10 samples, Peak.   119 ms (8.3x), Avg.  14.4 ms, Total. 144.4 ms (0.6%)
+[Performance] Application.UpdateTextureStreaming                            :        5 samples, Peak.   500 ns (1.6x), Avg.   320 ns, Total. 1.600 us (0.0%)
+[Performance] Application.UpdateVideoTextures                               :        5 samples, Peak.   600 ns (1.9x), Avg.   320 ns, Total. 1.600 us (0.0%)
+[Performance] PackageImporter.Tick                                          :        3 samples, Peak.   600 ns (1.1x), Avg.   567 ns, Total. 1.700 us (0.0%)
+[Performance] InspectorBackground.Tick                                      :        4 samples, Peak.  2.00 us (2.1x), Avg.   975 ns, Total. 3.900 us (0.0%)
+[Performance] Application.ChangeLayoutIfNeeded                              :       10 samples, Peak.   300 ns (3.3x), Avg.  90.0 ns, Total. 900.0 ns (0.0%)
+[Performance] AsyncReadManager.ForceCloseFiles                              :        3 samples, Peak.  36.9 us (1.6x), Avg.  23.6 us, Total. 70.70 us (0.0%)
+[Performance] GUIView.RepaintAll.RepaintScene                               :        2 samples, Peak.   700 ns (1.2x), Avg.   600 ns, Total. 1.200 us (0.0%)
+[Performance] AssetDatabase.ImportAssets                                    :        6 samples, Peak.   900 ns (1.6x), Avg.   550 ns, Total. 3.300 us (0.0%)
+[Performance] AssetDatabase.ImportAsset                                     :        1 samples, Peak.   500 ms (1.0x), Avg.   500 ms, Total. 499.7 ms (2.1%)
+[Performance] PresetManagerPostProcessor.OnPreprocessAsset                  :        1 samples, Peak.  2.21 ms (1.0x), Avg.  2.21 ms, Total. 2.206 ms (0.0%)
+[Performance] CancelSplashScreenOnAssetChange.OnPreprocessAsset             :        1 samples, Peak.   832 us (1.0x), Avg.   832 us, Total. 832.2 us (0.0%)
+[Performance] SpritePostProcess.OnPreprocessAsset                           :        1 samples, Peak.  2.84 ms (1.0x), Avg.  2.84 ms, Total. 2.838 ms (0.0%)
+[Performance] SpriteLibrarySourceAssetPostProcessor.OnPreprocessAsset       :        1 samples, Peak.   330 us (1.0x), Avg.   330 us, Total. 329.8 us (0.0%)
+[Performance] SpriteShapeAssetPostProcessor.OnPostprocessAllAssets          :        2 samples, Peak.  1.82 ms (1.3x), Avg.  1.36 ms, Total. 2.727 ms (0.0%)
+[Performance] AssetPostprocessor.OnPostprocessAllAssets                     :        2 samples, Peak.   443 us (1.1x), Avg.   395 us, Total. 789.3 us (0.0%)
+[Performance] PSDImportPostProcessor.OnPostprocessAllAssets                 :        2 samples, Peak.   362 us (1.0x), Avg.   349 us, Total. 697.0 us (0.0%)
+[Performance] SpriteEditorTexturePostprocessor.OnPostprocessAllAssets       :        2 samples, Peak.   499 us (1.1x), Avg.   468 us, Total. 935.7 us (0.0%)
+[Performance] AssetProcessor.OnPostprocessAllAssets                         :        6 samples, Peak.  1.27 ms (2.2x), Avg.   567 us, Total. 3.399 ms (0.0%)
+[Performance] AddressablesAssetPostProcessor.OnPostprocessAllAssets         :        2 samples, Peak.  4.26 ms (1.0x), Avg.  4.18 ms, Total. 8.360 ms (0.0%)
+[Performance] TMPro_TexturePostProcessor.OnPostprocessAllAssets             :        2 samples, Peak.   531 us (1.1x), Avg.   497 us, Total. 994.3 us (0.0%)
+[Performance] RetainedModeAssetPostprocessor.OnPostprocessAllAssets         :        2 samples, Peak.  4.57 ms (1.0x), Avg.  4.46 ms, Total. 8.929 ms (0.0%)
+[Performance] EditorAtlasMonitorInjector.OnPostprocessAllAssets             :        2 samples, Peak.   939 us (1.1x), Avg.   887 us, Total. 1.774 ms (0.0%)
+[Performance] BuilderAssetPostprocessor.OnPostprocessAllAssets              :        2 samples, Peak.  3.79 ms (1.6x), Avg.  2.35 ms, Total. 4.706 ms (0.0%)
+[Performance] AssetChangedListener.OnPostprocessAllAssets                   :        2 samples, Peak.  18.6 ms (1.1x), Avg.  17.1 ms, Total. 34.15 ms (0.1%)
+[Performance] AudioMixerPostprocessor.OnPostprocessAllAssets                :        2 samples, Peak.  4.33 ms (1.5x), Avg.  2.89 ms, Total. 5.789 ms (0.0%)
+[Performance] AssetEvents.OnPostprocessAllAssets                            :        4 samples, Peak.   974 us (1.4x), Avg.   705 us, Total. 2.821 ms (0.0%)
+[Performance] ModelImporterPostProcessor.OnPostprocessAllAssets             :        2 samples, Peak.  2.07 ms (1.1x), Avg.  1.81 ms, Total. 3.630 ms (0.0%)
+[Performance] StyleCatalogPostProcessor.OnPostprocessAllAssets              :        2 samples, Peak.   385 ms (1.4x), Avg.   283 ms, Total. 565.5 ms (2.4%)
+[Performance] BuildCatalog                                                  :        2 samples, Peak.   383 ms (1.4x), Avg.   280 ms, Total. 560.6 ms (2.4%)
+[Performance] EditorApplication.playModeStateChanged                        :        2 samples, Peak.   368 ms (1.8x), Avg.   200 ms, Total. 400.6 ms (1.7%)
+[Performance] Application.EnterPlayMode                                     :        1 samples, Peak.  4.72 s (1.0x), Avg.  4.72 s, Total. 4.718 s (20.2%)
+[Performance] Application.Reload                                            :        1 samples, Peak.  4.54 s (1.0x), Avg.  4.54 s, Total. 4.543 s (19.5%)
+[Performance] Inspector.InitOrRebuild                                       :        1 samples, Peak.  15.9 ms (1.0x), Avg.  15.9 ms, Total. 15.92 ms (0.1%)
+[Performance] AssetDatabase.DeleteAssets                                    :        1 samples, Peak.   346 ms (1.0x), Avg.   346 ms, Total. 346.0 ms (1.5%)
+[Performance] Application.Shutdown.CollabTerminate                          :        1 samples, Peak.  1.90 us (1.0x), Avg.  1.90 us, Total. 1.900 us (0.0%)
+[Performance] Application.Shutdown.CollabCleanup                            :        1 samples, Peak.   196 us (1.0x), Avg.   196 us, Total. 196.3 us (0.0%)
+[Performance] Application.Shutdown.SaveDefaultWindowPreferences             :        1 samples, Peak.   635 us (1.0x), Avg.   635 us, Total. 635.1 us (0.0%)
+[Performance] Application.Shutdown.SaveSceneManagerSetup                    :        1 samples, Peak.   141 us (1.0x), Avg.   141 us, Total. 140.5 us (0.0%)
+[Performance] Application.Shutdown.CleanupAllContainerWindows               :        1 samples, Peak.   500 ns (1.0x), Avg.   500 ns, Total. 500.0 ns (0.0%)
+[Performance] Application.Shutdown.PauseProfilerSession                     :        1 samples, Peak.  52.8 us (1.0x), Avg.  52.8 us, Total. 52.80 us (0.0%)
+[Performance] Application.Shutdown.PauseAssetImportWorkers                  :        1 samples, Peak.   371 us (1.0x), Avg.   371 us, Total. 370.7 us (0.0%)
+[Performance] Application.Shutdown.SaveAssets                               :        1 samples, Peak.  5.89 ms (1.0x), Avg.  5.89 ms, Total. 5.894 ms (0.0%)
+[Performance] Application.Shutdown.CleanupRenderPipeline                    :        1 samples, Peak.   711 us (1.0x), Avg.   711 us, Total. 710.7 us (0.0%)
+[Performance] Application.Shutdown.StopPreloadManager                       :        1 samples, Peak.  10.2 ms (1.0x), Avg.  10.2 ms, Total. 10.16 ms (0.0%)
+[Performance] Application.Shutdown.DestroyWorld                             :        1 samples, Peak.   862 us (1.0x), Avg.   862 us, Total. 862.2 us (0.0%)
+[Performance] Application.Shutdown.CleanupAfterLoad                         :        1 samples, Peak.  26.3 ms (1.0x), Avg.  26.3 ms, Total. 26.32 ms (0.1%)
+[Performance] Application.Shutdown.Progress                                 :        1 samples, Peak.  17.0 us (1.0x), Avg.  17.0 us, Total. 17.00 us (0.0%)
+[Performance] Application.Shutdown.GICleanupManagers                        :        1 samples, Peak.   237 us (1.0x), Avg.   237 us, Total. 237.4 us (0.0%)
+[Performance] Application.Shutdown.MenuCleanupClass                         :        1 samples, Peak.   193 us (1.0x), Avg.   193 us, Total. 193.2 us (0.0%)
+[Performance] Application.Shutdown.ADBSaveStateBeforeShutdown               :        1 samples, Peak.  9.80 us (1.0x), Avg.  9.80 us, Total. 9.800 us (0.0%)
+[Performance] Application.Shutdown.RemoteShutdown                           :        1 samples, Peak.   900 ns (1.0x), Avg.   900 ns, Total. 900.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupVCProvider                        :        1 samples, Peak.  5.60 us (1.0x), Avg.  5.60 us, Total. 5.600 us (0.0%)
+[Performance] Application.Shutdown.InputShutdown                            :        1 samples, Peak.  1.40 us (1.0x), Avg.  1.40 us, Total. 1.400 us (0.0%)
+[Performance] Application.Shutdown.GizmoManagerDestroy                      :        1 samples, Peak.   296 us (1.0x), Avg.   296 us, Total. 296.4 us (0.0%)
+[Performance] Application.Shutdown.CleanupEngine                            :        1 samples, Peak.   106 ms (1.0x), Avg.   106 ms, Total. 106.2 ms (0.5%)
+[Performance] Application.Shutdown.ProfilerSession                          :        1 samples, Peak.  43.7 us (1.0x), Avg.  43.7 us, Total. 43.70 us (0.0%)
+[Performance] Application.Shutdown.CleanupAssetDatabase                     :        1 samples, Peak.  5.46 ms (1.0x), Avg.  5.46 ms, Total. 5.462 ms (0.0%)
+[Performance] Application.Shutdown.ScriptCompilationCleanUp                 :        1 samples, Peak.  61.0 us (1.0x), Avg.  61.0 us, Total. 61.00 us (0.0%)
+[Performance] Application.Shutdown.DestroyJobSystem                         :        1 samples, Peak.  23.3 us (1.0x), Avg.  23.3 us, Total. 23.30 us (0.0%)
+[Performance] Application.Shutdown.CleanupPersistentManager                 :        1 samples, Peak.  1.31 ms (1.0x), Avg.  1.31 ms, Total. 1.307 ms (0.0%)
+[Performance] Application.Shutdown.CleanupAsyncReadManager                  :        1 samples, Peak.   186 us (1.0x), Avg.   186 us, Total. 186.3 us (0.0%)
+[Performance] Application.Shutdown.CleanupMono                              :        1 samples, Peak.   147 ms (1.0x), Avg.   147 ms, Total. 146.7 ms (0.6%)
+[Performance] Application.Shutdown.CleanupStdConverters                     :        1 samples, Peak.  13.9 us (1.0x), Avg.  13.9 us, Total. 13.90 us (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportModuleNativeDlls :        1 samples, Peak.   500 ns (1.0x), Avg.   500 ns, Total. 500.0 ns (0.0%)
+[Performance] Application.Shutdown.UnloadAllPlatformSupportNativeLibraries  :        1 samples, Peak.   300 ns (1.0x), Avg.   300 ns, Total. 300.0 ns (0.0%)
+[Performance] Application.Shutdown.CleanupAutoDocumentation                 :        1 samples, Peak.   225 us (1.0x), Avg.   225 us, Total. 224.5 us (0.0%)
+[Performance] Application.Shutdown.ShaderNameManagerDestroy                 :        1 samples, Peak.  59.0 us (1.0x), Avg.  59.0 us, Total. 59.00 us (0.0%)
+[Performance] Application.Shutdown.CleanupCacheServer                       :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Performance] Application.Shutdown.Virtualization_Shutdown                  :        1 samples, Peak.   400 ns (1.0x), Avg.   400 ns, Total. 400.0 ns (0.0%)
+[Package Manager] Server::Kill -- Server was shutdown
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1646591177830,"processId":3491,"allocatedMemory":671529,"memoryLabels":[{"Default":-788},{"Permanent":384},{"Thread":184},{"Manager":1912},{"Geometry":-56},{"Texture":144},{"Physics":1},{"Serialization":496},{"File":4265},{"String":273992},{"DynamicArray":26448},{"HashMap":33398},{"Utility":263496},{"Curl":4435},{"PoolAlloc":240},{"Sprites":8},{"GI":336},{"VR":1696},{"NativeArray":848},{"Secure":9854},{"Subsystems":96},{"EditorUtility":1456},{"AssetDatabase":7164},{"RestService":72},{"License":9344},{"UnityConnect":29688},{"Collab":808},{"Licensing":1608}]}
+
